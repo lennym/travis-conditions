@@ -1,0 +1,21 @@
+{
+  "name": "travis-conditions",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "travis-conditions": "index.js"
+  },
+  "scripts": {
+    "test": "semistandard"
+  },
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.7.0",
+    "minimatch": "^3.0.3"
+  },
+  "devDependencies": {
+    "semistandard": "^9.2.1"
+  }
+}
